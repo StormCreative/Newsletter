@@ -1,183 +1,208 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
     <title>[project name] Email Newsletter</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="author" content="Storm Creative" />
     <style type="text/css">
-
-	/* Structure.css
-	 **********************************************************************/
-	
-	/* 	1. Base
-		2. Styles
-	
-	 **********************************************************************/
-	 
-	
-	/* 1. Base
-	 **********************************************************************/
-	
-	html, body {
-		font:normal small Arial, Verdana, sans-serif;
-		margin:0;
-		padding:0;
-	}
-	
-	p, img {
-		display:block;
-	}
-	
-	a img {
-		border:none;	
-	}
-	
-	#body {
-		background-color:#C2C2C2;
-		color:#58595B;
-	}
-	
-	#container {
-		background-color:#fff;
-		line-height:16px;
-	}
-	
-	p {
-		font-size:12px;
-		margin:0 0 8px;
-	}
-	
-	.heading {
-		font-size:19px;
-		line-height:24px;
-		margin:0;	
-	}
-	
-	.section h2,
-	.section p,
-	img {
-		color:#fff;	
-	}
-	
-	.heading span,
-	.link span {
-		color:#E31837;	
-	}
-	
-	.link {
-		font-size:12px;	
-	}
-	
-	.unsub a {
-		color:#231F20;
-	}
-	
-	.footer img,
-	#logo img {
-		color:#000;	
-	}
-	
-	</style>
+    /* Structure.css
+     **********************************************************************/
+    
+    /*  1. Base
+        2. Styles
+    
+     **********************************************************************/
+     
+    
+    /* 1. Base
+     **********************************************************************/
+    
+    html, body {
+        font:normal small Arial, Verdana, sans-serif;
+        margin:0;
+        padding:0;
+    }
+    
+    p, img {
+        display:block;
+    }
+    
+    a img {
+        border:none;    
+    }
+    
+    #body {
+        background-color:#C2C2C2;
+        color:#58595B;
+    }
+    
+    #container {
+        background-color:#fff;
+        line-height:16px;
+    }
+    
+    p {
+        font-size:12px;
+        margin:0 0 8px;
+    }
+    
+    .heading {
+        border-left: 6px solid #E31837;
+        font-size:45px;
+        line-height:54px;
+        margin:0 25px;
+        padding:0 14px;
+    }
+    
+    .sub-heading {
+        border-left: 6px solid #E31837;
+        color: #4D4D4D;
+        font-size:25px;
+        line-height:39px;
+        margin:0 25px;
+        padding:0 14px;
+    }
+    
+    .heading a,
+    .section h2,
+    img {
+        color:#E31837; 
+    }
+    .heading a {
+        text-decoration: none;
+    }
+    
+    .heading .slash,
+    .link .slash {
+        color:#E31837;  
+    }
+    .heading strong,
+    .heading b {
+        color:#E31837;
+    }
+    
+    .link {
+        font-size:12px; 
+    }
+    .quote-link a,
+    .link a {
+        color: #58595B;
+        text-decoration: none;
+    }
+    
+    .unsub a {
+        color:#231F20;
+    }
+    
+    .footer img,
+    #logo img {
+        color:#fff; 
+    }
+    
+    .section p {
+        color:#4D4D4D;
+        font-size: 15px;
+    }
+    
+    .main-feature {
+        margin: 0 25px;
+    }
+    .main-feature a {
+        color: #fff;
+    }
+    </style>
 </head>
 <body>
-    <table id="body" cellpadding="0" cellspacing="0" width="100%"><tr><td style="padding:40px 0 20px;">
-        <table id="container" align="center" cellpadding="0" cellspacing="0" width="600"><tr><td style="padding:14px;">
+    <table id="body" cellpadding="0" cellspacing="0" width="100%"><tr><td style="padding:10px 0 20px;">
+        <table id="container" align="center" cellpadding="0" cellspacing="0" width="600"><tr><td style="padding:0">
             <table id="header" cellpadding="0" cellspacing="0" width="100%"><tr><td>
-                <table cellpadding="0" cellspacing="0" width="100%" style="background-color:#231F20;">
+                <table cellpadding="0" cellspacing="0" width="100%" style="background-color:#C2C2C2;">
                     <tr>
                         <td width="470">&nbsp;</td>
                        <td>
                             <table cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
-                                    <td><a href="http://www.stormcreative.co.uk/home?id=header"><img src="Images/I-website.png" alt="Storm Creative Website - http://www.stormcreative.co.uk/" /></a></td>
-                                    <td><a href="mailto:mike@stormcreative.co.uk?subject=RE:Email Newsletter"><img src="Images/I-email.png" alt="Email Storm Creative" /></a></td>
-                                    <td><a href="http://www.facebook.com/stormcreativemedia"><img src="Images/I-facebook.png" alt="Storm Creative on Facebook" /></a></td>
-                                    <td><a href="http://twitter.com/#!/stormcreative"><img src="Images/I-twitter.png" alt="Storm Creative on Twitter" /></a></td>
+                                    <td><a href="http://www.stormcreative.co.uk/home?id=header"><img src="/images/web.png" alt="Storm Creative Website - http://www.stormcreative.co.uk/" /></a></td>
+                                    <td><a href="mailto:mike@stormcreative.co.uk?subject=RE:Email Newsletter"><img src="/images/email.png" alt="Email Storm Creative" /></a></td>
+                                    <td><a href="http://www.facebook.com/stormcreativemedia"><img src="/images/facebook.png" alt="Storm Creative on Facebook" /></a></td>
+                                    <td><a href="http://twitter.com/#!/stormcreative"><img src="/images/twitter.png" alt="Storm Creative on Twitter" /></a></td>
                                 </tr>
                             </table>
                         </td>
                     </tr>
-                	<tr><td><table class="spacer"><tr><td height="2"></td></tr></table></td></tr>
+                    <tr><td><table class="spacer"><tr><td height="2"></td></tr></table></td></tr>
                 </table>
-            <table cellpadding="0" cellspacing="0">
-				<tr><td><table class="spacer"><tr><td height="8"></td></tr></table></td></tr>
+            <table cellpadding="0" cellspacing="0" width="100%" style="padding:0 14px;">
+                <tr><td><table class="spacer"><tr><td height="8"></td></tr></table></td></tr>
                 <tr>
                    <td id="qoute" style="padding-bottom:20px;">
                     <table width="270" cellpadding="0" cellspacing="0">
                         <tr>
-                            <td valign="top"><img src="Images/qouteLeft.png" alt="" /></td>
-                            <td valign="top" style="padding:0 10px;"><p style="color:#58595B; font-size:13px; margin:4px 0;"><strong> <a href="http://www.stormcreative.co.uk/case_study/title/#link?v=qoute" style="color:#58595B; text-decoration:none;">Qoute</a></strong></p></td>
-                            <td valign="bottom"><img src="Images/qouteRight.png" alt=""></td>
+                            <td valign="top"><img src="/images/qouteleft.png" alt="" /></td>
+                            <td valign="top" style="padding:0 10px; max-width:175px;" class="quote-link"><p style="color:#58595B; font-size:15px; margin:4px 0;"><strong> <multiline label='Quote'>Quote</multiline></strong></p></td>
+                            <td valign="top"><img src="/images/qouteright.png" alt=""></td>
                          </tr>
                       </table>
                    </td>
-                   <td id="logo" valign="top" style="padding-top:5px; padding-left:64px;"><a href="http://www.stormcreative.co.uk/home?id=logo" alt="Storm Creative Logo" style="display:block; text-decoration:none;"><img src="Images/logo.png" alt="Storm Creative Logo" /></a></td>
+                   <td id="logo" valign="top" style="padding-top:5px; padding-left:64px;"><a href="http://www.stormcreative.co.uk/home?id=logo" alt="Storm Creative Logo" style="display:block; text-decoration:none;"><img src="/images/logo.png" alt="Storm Creative Logo" /></a></td>
                 </tr>
              </table>
              <table class="spacer"><tr><td height="8"></td></tr></table>
             </td></tr></table> 
             <table id="main" cellpadding="0" cellspacing="0" width="100%"><tr><td>
-                <table cellpadding="0" cellspacing="0" width="100%" style="background-color:#231F20; color:#fff;">
+                <table cellpadding="0" cellspacing="0" width="100%" style="background-color:#fff; color:#4D4D4D;">
                 <tr>
-                    <td><table cellpadding="0" cellspacing="0" width="100%"><tr><td><img src="Images/cutout.png" alt="" /></td></tr></table></td>                                
-                <tr>
-                    <td style="vertical-align:top; padding: 0 25px 25px;">
-                        <table cellpadding="0" cellspacing="0" width="100%">
+                    <td><table cellpadding="0" cellspacing="0" width="100%" style="position:relative;"><tr><td><img src="/images/cutout-new.png" alt="" style="position:absolute; top:0; z-index:2;" /></td></tr></table></td>                                
+                </tr><tr>
+                    <td style="vertical-align:top; padding: 0 14px;">
+                        <table cellpadding="0" cellspacing="0" bgcolor="#F1F1F2" style="position:relative; z-index:1;" width="100%">
+                           <repeater>
                            <tr>
-                              <td class="section" style="border-bottom: 1px dotted #fff; padding:17px 0 20px"> 
-                                <h2 class="heading"><a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#fff; text-decoration:none;"><span>/</span> Title text to here</a></h2>
-                                <table class="spacer"><tr><td height="8"></td></tr></table>
-                                <a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#fff; text-decoration:none;"><img src="http://placehold.it/528x317" alt="Image of: Amos shop exterior" /></a>
+                              <td class="section" style="padding:0;">
+                                <a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#fff; text-decoration:none;"><img src="http://placehold.it/528x317" width="573" label='image title' editable /></a>
                                 <table class="spacer"><tr><td height="10"></td></tr></table>
-                                <p><a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#fff; text-decoration:none;">Paragraph text here</a></p>
+                                <h2 class="heading"><singleline label='Title'>Title</singleline></h2>
+                                <h3 class="sub-heading"><singleline label='Sub Title'>Sub Title</singleline></h3>
+                                <table class="spacer"><tr><td height="8"></td></tr></table>
+                                <table class="spacer"><tr><td height="10"></td></tr></table>
+                                <div class="main-feature">
+                                <multiline label='Main Feature Intro'>Main feature introduction</multiline>
+                                </div>
                                 <table class="spacer" width="100%"><tr><td height="5"></td></tr></table>
-                                <table cellpadding="0" cellspacing="0" width="150" style="background-color:#fff; color">
+                                <table class="spacer" width="100%"><tr><td height="5"></td></tr></table>
+                                <table cellpadding="0" cellspacing="0">
                                     <tr><td><table class="spacer"><tr><td height="0"></td></tr></table></td></tr>
                                     <tr>
-                                        <td style="padding:0 5px;"><p class="link" style="color: #58595B; text-decoration:none; margin:0;"><a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#58595B; text-decoration:none;"><span>/</span> read the full article <span style="text-decoration:underline;">here</span></a></p></td>
+                                        <td style="padding:0 25px;"><p class="link" style="color: #333333; font-size:15px; text-decoration:none; margin:0;"><!--<a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#58595B; text-decoration:none;">--><span style="color:#E31837;">/</span> <singleline label="Link">Read the full article here</singleline><!-- <span style="color:#E31837; text-decoration:underline;">here</span></a>--></p></td>
                                     </tr>
                                     <tr><td><table class="spacer"><tr><td height="0"></td></tr></table></td></tr>
+                                    <table class="spacer" width="100%"><tr><td height="5"></td></tr></table>
                                 </table>
                               </td>
                            </tr>
-                           <tr>
-                              <td class="section" style="padding:17px 0 0"> <!-- No padding-bottom and No border-bottom -->
-                                <h2 class="heading"><a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#fff; text-decoration:none;"><span>/</span> Title text to here</a></h2>
-                                <table class="spacer"><tr><td height="8"></td></tr></table>
-                                <a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#fff; text-decoration:none;"><img src="http://placehold.it/528x317" alt="Image of: Amos shop exterior" /></a>
-                                <table class="spacer"><tr><td height="10"></td></tr></table>
-                                <p><a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#fff; text-decoration:none;">Paragraph text here</a></p>
-                                <table class="spacer" width="100%"><tr><td height="5"></td></tr></table>
-                                <table cellpadding="0" cellspacing="0" width="150" style="background-color:#fff; color">
-                                    <tr><td><table class="spacer"><tr><td height="0"></td></tr></table></td></tr>
-                                    <tr>
-                                        <td style="padding:0 5px;"><p class="link" style="color: #58595B; text-decoration:none; margin:0;"><a href="http://www.stormcreative.co.uk/case_study/title/#link" style="color:#58595B; text-decoration:none;"><span>/</span> read the full article <span style="text-decoration:underline;">here</span></a></p></td>
-                                    </tr>
-                                    <tr><td><table class="spacer"><tr><td height="0"></td></tr></table></td></tr>
-                                </table>
-                              </td>
-                           </tr>
-                        </table>	
+                           </repeater>
+                        </table>    
                     </td>
                  </tr></table>
-                <table class="spacer"><tr><td height="10"></td></tr></table>
-                <table id="footer" cellpadding="0" cellspacing="0" width="100%"><tr><td style="padding:0 25px 10px;">
-                    <p>For more information on how storm can help your organisation, contact Mike Smith on<br /><span style="color:#E31837;">01702 719595</span> or email <a style="color:#E31837;" href="mailto:mike@stormcreative.co.uk?subject=RE: Email Newsletter">mike@stormcreative.co.uk</a></p>
-	                <table class="spacer"><tr><td height="5"></td></tr></table>
+                <!--<table class="spacer"><tr><td height="10"></td></tr></table>-->
+                <table id="footer" bgcolor="#000" cellpadding="0" cellspacing="0" width="100%" style="position:relative; top:-15px;"><tr><td style="padding:0 25px 30px;">
+                    <table class="spacer"><tr><td height="35"></td></tr></table>
+                    <p style="color:#fff;">For more information on how storm can help your organisation, contact Mike Smith on<br />
+<span style="color:#E31837;">01702 719595</span> or email <a style="color:#E31837;" href="mailto:mike@stormcreative.co.uk?subject=RE: Email Newsletter">mike@stormcreative.co.uk</a></p>
+                    <table class="spacer"><tr><td height="5"></td></tr></table>
                     <table cellpadding="0" cellspacing="0" width="100%"><tr>
-                    	<td class="footer" width="170"><a href="http://www.facebook.com/stormcreativemedia" title="Like us on Facebook"><img src="Images/img-facebook.png" alt="Like us on Facebook" /></a></td>
-                    	<td class="footer" width="170"><a href="http://www.twitter.com/#!/stormcreative" title="Follow us on Twitter"><img src="Images/img-twitter.png" alt="Follow us on Twitter" /></a></td>
-                    	<td class="footer"><a href="http://www.stormcreative.co.uk/home?id=footer" title="stormcreative.co.uk"><img src="Images/img-website.png" alt="www.stormcreative.co.uk" /></a></td>
+                        <td class="footer" width="170"><a href="http://www.facebook.com/stormcreativemedia" title="Like us on Facebook"><img src="/images/img-facebook-new.png" alt="Like us on Facebook" /></a></td>
+                        <td class="footer" width="170"><a href="https://twitter.com/StormCreative" title="Follow us on Twitter"><img src="/images/img-twitter-new.png" alt="Follow us on Twitter" /></a></td>
+                        <td class="footer"><a href="http://www.stormcreative.co.uk/home?id=footer" title="stormcreative.co.uk"><img src="/images/img-website-new.png" alt="www.stormcreative.co.uk" /></a></td>
                     </tr></table>
                 </td></tr></table>
+                <table width="600" bgcolor="#fff" align="center" cellpadding="0" cellspacing="0" style="color:#231F20; padding: 0 40px 10px;">
+                    <tr>
+                        <td><p style="font-size:10px;" class="unsub">You're receiving this email because you've previously given us permission to keep you informed of our latest news by subscribing via our website or by verbally requesting information from one of our team. However you may <strong><unsubscribe>unsubscribe</unsubscribe></strong> if you're no longer interested.</p></td>
+                    </tr>
+                </table>
             </td></tr></table> 
         </td></tr></table>
-        <table width="540" align="center" cellpadding="0" cellspacing="0" style="color:#231F20; ">
-        	<tr><td><table class="spacer"><tr><td height="5"></td></tr></table></td></tr>
-            <tr>
-                <td><p style="font-size:10px;" class="unsub">You're receiving this email because you've previously given us permission to keep you informed of our latest news by subscribing via our website or by verbally requesting information from one of our team. However you may <strong><unsubscribe>unsubscribe</unsubscribe></strong> if you're no longer interested.</p></td>
-            </tr>
-        </table>
     </td></tr></table>
 </body>
 </html>
